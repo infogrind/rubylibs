@@ -1,5 +1,7 @@
 # Usage
 
+Clone this repository into a directory `mk` under your Ruby library directory. This is something like `/usr/local/lib/ruby` or (on OS X) `~/Library/Ruby/Site`. (Hint: Use `ruby -e 'puts $:'` to find out the directories that are on your Ruby installation's library path.)
+
 ## lockfile
 
 This library allows you to create a lock file to prevent a Ruby script from
